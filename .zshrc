@@ -21,16 +21,6 @@ zinit light paulirish/git-open
 # コマンド `cd-gitroot` を実行すると、gitのプロジェクトルート(.gitがあるディレクトリに)移動してくれる
 zinit light mollifier/cd-gitroot
 
-# zinit light zsh-users/zsh-autosuggestions
-# zinit light zdharma/fast-syntax-highlighting
-# zinit load zdharma/history-search-multi-word
-# # zinit light denysdovhan/spaceship-prompt
-
-# zinit ice from"gh-r" as"program"
-# zinit load junegunn/fzf-bin
-
-# zinit wait lucid atload"zicompinit; zicdreplay" blockf for zsh-users/zsh-completions
-
 ## https://github.com/starship/starship/blob/master/docs/ja-JP/guide/README.md
 eval "$(starship init zsh)"
 
