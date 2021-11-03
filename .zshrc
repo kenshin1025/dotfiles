@@ -8,6 +8,7 @@ autoload -Uz _zinit
 
 # 補完
 zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-completions
 
 # シンタックスハイライト
 zinit light zsh-users/zsh-syntax-highlighting
