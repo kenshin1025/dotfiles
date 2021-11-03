@@ -1,0 +1,8 @@
+[user]
+	email = sukoyakamind1025@gmail.com
+	name = kenshin1025
+[alias]
+    st = status
+    co = checkout
+[core]
+	excludesfile = /Users/sukoyakamind/.gitignore_global
