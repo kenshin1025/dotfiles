@@ -22,6 +22,11 @@ zinit light paulirish/git-open
 # コマンド `cd-gitroot` を実行すると、gitのプロジェクトルート(.gitがあるディレクトリに)移動してくれる
 zinit light mollifier/cd-gitroot
 
+# batコマンドの追加
+zinit ice as"program" from"gh-r" mv"bat* -> bat" pick"bat/bat"
+zinit light sharkdp/bat
+alias cat='bat'
+
 ## https://github.com/starship/starship/blob/master/docs/ja-JP/guide/README.md
 eval "$(starship init zsh)"
 
