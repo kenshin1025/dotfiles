@@ -1,3 +1,4 @@
 # PC全体でgitで管理したくないものを書く
 
 .DS_Store
+.vscode
