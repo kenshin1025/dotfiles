@@ -51,7 +51,7 @@ alias -g @A='| awk'
 alias -g @C='| pbcopy' # copy
 alias -g @C='| wc -l' # count
 alias -g @G='| grep --color=auto'
-alias -g @H='| head' 
+alias -g @H='| head'
 alias -g @T='| tail'
 alias -g @L='| less -R'
 alias -g @X='| xargs'
