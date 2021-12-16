@@ -27,6 +27,14 @@ zinit ice as"program" from"gh-r" mv"bat* -> bat" pick"bat/bat"
 zinit light sharkdp/bat
 alias cat='bat'
 
+# git補完の追加
+fpath=(
+  ${HOME}/.zsh/completions
+  ${fpath}
+)
+autoload -Uz compinit
+compinit
+
 ## https://github.com/starship/starship/blob/master/docs/ja-JP/guide/README.md
 eval "$(starship init zsh)"
 
