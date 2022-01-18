@@ -44,6 +44,8 @@ alias ll='ls -alF'
 
 alias ..='cd ..'
 
+alias lg='lazygit'
+
 alias d='docker'
 alias dcomp='docker-compose'
 alias dimg='docker image'
