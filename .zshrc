@@ -35,6 +35,9 @@ fpath=(
 autoload -Uz compinit
 compinit
 
+# 補完の際、大文字小文字を区別しないようにする
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 ## https://github.com/starship/starship/blob/master/docs/ja-JP/guide/README.md
 eval "$(starship init zsh)"
 
